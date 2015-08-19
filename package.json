@@ -1,0 +1,19 @@
+{
+  "name": "helix-pi-benchmarks",
+  "version": "0.0.1",
+  "description": "A set of benchmarks for Helix Pi to test performance and evolution.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/helix-pi/helix-pi-benchmarks.git"
+  },
+  "author": "Nick Johnstone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/helix-pi/helix-pi-benchmarks/issues"
+  },
+  "homepage": "https://github.com/helix-pi/helix-pi-benchmarks"
+}
