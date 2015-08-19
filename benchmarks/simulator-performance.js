@@ -4,7 +4,7 @@ const Entity = require(helixPiPath + '/app/entity');
 const _ = require('lodash');
 
 const individual = [
-  (entity, api, currentFrame) => {
+  function (entity, api, currentFrame) {
     api.setVelocity(entity, {x: 3, y: 0});
   }
 ];
@@ -36,7 +36,7 @@ function runBenchmark () {
 
 function mean (numbers) {
   return _.sum(numbers) / numbers.length;
-};
+}
 
 const runTimes = _.chain(RUNS).range().map(runBenchmark).value();
 
