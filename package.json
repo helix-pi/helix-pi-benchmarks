@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/helix-pi/helix-pi-benchmarks/issues"
   },
-  "homepage": "https://github.com/helix-pi/helix-pi-benchmarks"
+  "homepage": "https://github.com/helix-pi/helix-pi-benchmarks",
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
 }

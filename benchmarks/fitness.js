@@ -1,4 +1,5 @@
-var helixPi = require('../helix-pi/helix');
+var helixPiPath = process.env.HELIX_PI_PATH;
+var helixPi = require(helixPiPath);
 
 var fitnessScenarios = {
   participants: ['swordsunit', 'ball'],

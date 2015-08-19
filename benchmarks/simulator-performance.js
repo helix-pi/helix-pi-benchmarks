@@ -1,5 +1,6 @@
-const simulateWorld = require('../helix-pi/app/simulator');
-const Entity = require('../helix-pi/app/entity');
+const helixPiPath = process.env.HELIX_PI_PATH;
+const simulateWorld = require(helixPiPath + '/app/simulator');
+const Entity = require(helixPiPath + '/app/entity');
 const _ = require('lodash');
 
 const individual = [
